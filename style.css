@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+html,body {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(204, 43%, 93%);
+    line-height: 1.4;
+}
+
+.card-container {
+    width: 50vw;
+    height: 65vh;
+    max-width: 1440px;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.74);
+}
+
+header {
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+}
+
+header h2 {
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+    margin: 10px 0;
+}
+
+header h3 {
+    color: hsl(71, 73%, 54%);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: hsl(201, 11%, 64%);
+    font-weight: 400;
+    padding-right: 55px; 
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+}
+.details {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+
+.subscribe {
+    width: 50%;
+    height: 100%;
+    background-color: hsl(179, 62%, 43%);
+    padding: 25px;
+}
+
+.subscribe button {
+    color: white;
+    border: none;
+    border-radius: 7px;
+    margin-top: 25px;
+    width: 238px;
+    height: 45px;
+}
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.price h1 {
+    padding-right: 15px;
+}
+
+.price p {
+    color: rgba(255, 255, 255, 0.486);
+}
+.why-us {
+    width: 50%;
+    height: 100%;
+    background-color: hsl(179, 73%, 47%);
+    padding: 25px;
+}
+
+.why-us h4{
+    margin-bottom: 10px;
+}
+ul {
+    list-style: none;
+    font-size: small;
+}
